@@ -1,6 +1,6 @@
 <div class="image-container" style="margin-right: 16px; margin-left: 16px">
   <sidebar-toggle style="position: absolute; margin-top: 16px; margin-left: 16px" />
-  <div style="align-self: end; width: 100%; display: flex; justify-content: space-around">
+  <div style="align-self: end; width: 100%; display: flex; justify-content: space-around; margin-bottom: 50px">
     <typography style="margin-bottom: -30px; margin-top: -10px" variant="large-header" [content]="time | date: 'HH:mm:ss'" />
     <typography style="margin-bottom: -30px; margin-top: -10px" variant="large-header" content="{{ location }} " />
     <typography
@@ -9,4 +9,7 @@
       content="{{ time | date: 'MM/dd/yyyy' }} "
     />
   </div>
+  <hstack>
+    <wind-speed />
+  </hstack>
 </div>
