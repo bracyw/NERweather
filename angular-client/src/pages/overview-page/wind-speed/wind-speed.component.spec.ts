@@ -9,8 +9,7 @@ describe('WindSpeedComponent', () => {
   beforeEach(async () => {
     await TestBed.configureTestingModule({
       imports: [WindSpeedComponent]
-    })
-    .compileComponents();
+    }).compileComponents();
 
     fixture = TestBed.createComponent(WindSpeedComponent);
     component = fixture.componentInstance;
