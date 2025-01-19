@@ -7,6 +7,9 @@ and then
 
 then run ng serve to see the basic starter code given.
 
+### Starting the Project
+run `npm run start` to see the basic setup given
+
 # Weather App Project specification
 
 ## **Page 1: Overvview**
