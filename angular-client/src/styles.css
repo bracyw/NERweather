@@ -1,0 +1,43 @@
+/* You can add global styles to this file, and also import other style files */
+@import 'styles/roboto.scss';
+@import 'styles/material-icons.scss';
+
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  background-color: #101010;
+}
+
+/* WebKit (Chrome, Safari) scrollbar styles */
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* Firefox scrollbar styles */
+* {
+  scrollbar-width: none;
+}
+
+.mat-mdc-dialog-container {
+  --mdc-dialog-container-color: transparent !important;
+}
+
+.p-dialog-header {
+  background-color: #262626 !important;
+  color: white !important;
+  border-radius: 20px 20px 0px 0px !important;
+}
+.p-dialog-content {
+  background-color: #262626 !important;
+  color: white !important;
+  border-radius: 0px 0px 20px 20px !important;
+}
+
+.p-sidebar {
+  background-color: #ef4345 !important;
+  color: white !important;
+  width: 200px !important;
+}
