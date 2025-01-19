@@ -1,0 +1,14 @@
+.image-container {
+  /* background-image: url(../../assets/images/NERO.jpeg); */
+  background-size: cover;
+  background-position: center;
+  /* height: 100%;  enable this to even things out and make sure your components take up the whole page*/
+}
+
+.overlay-div {
+  background-color: rgba(255, 255, 255, 0.5);
+  height: 100%;
+  padding-top: 16px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
