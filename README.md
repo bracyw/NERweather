@@ -30,3 +30,4 @@ Server protobuf generation is automatic. See below for client protobuf generatio
 
 The configuration for the Mosquitto MQTT server on the router is in the siren-base folder.
 Note that the configuration is used in the docker compose file, but the configuration on the TPU is stored in [Odysseus.](https://github.com/Northeastern-Electric-Racing/Odysseus/tree/cb12fb3240d5fd58adfeae26262e158ad6dd889b/odysseus_tree/overlays/rootfs_overlay_tpu/etc/mosquitto)
+# NERweather
