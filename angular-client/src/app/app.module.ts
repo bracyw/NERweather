@@ -27,7 +27,7 @@ import SidebarToggleComponent from 'src/components/sidebar-toggle/sidebar-toggle
 import { OverviewPageComponent } from 'src/pages/overview-page/overview-page.component';
 import AppSidebarComponent from './app-sidebar/app-sidebar.component';
 import SidebarChipComponent from 'src/components/sidebar-chip/sidebar-chip.component';
-import { WindSpeedComponent } from 'src/pages/overview-page/wind-speed/wind-speed.component';
+import { WindSpeedComponent } from 'src/pages/overview-page/components/wind-speed/wind-speed.component';
 import HStackComponent from 'src/components/hstack/hstack.component';
 import { InfoBackgroundComponent } from 'src/components/info-background/info-background.component';
 import { GraphComponent } from 'src/components/graph/graph.component';
